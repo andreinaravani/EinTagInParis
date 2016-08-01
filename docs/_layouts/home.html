@@ -1,18 +1,31 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="de">
   <head>
     <!-- Meta, title, CSS, favicons, etc. -->
     {% include header.html %}
   </head>
   <body class="bs-docs-home">
-    <a id="skippy" class="sr-only sr-only-focusable" href="#content"><div class="container"><span class="skiplink-text">Skip to main content</span></div></a>
+    <div class="site-wrapper">
 
-    <!-- Docs master nav -->
-    {% include nav/main.html %}
+      <div class="site-wrapper-inner">
 
-    <!-- Page content of course! -->
-    {{ content }}
+        <div class="cover-container">
 
-    {% include footer.html %}
+          <!-- Docs master nav -->
+          {% include nav/main.html %}
+
+          <!-- Page content of course! -->
+          {{ content }}
+
+          {% include footer.html %}
+    
+        </div>
+
+      </div>
+
+    </div>
+
+  <!-- IE10 viewport hack for Surface/desktop Windows 8 bug -->
+  <script src="../assets/js/ie10-viewport-bug-workaround.js"></script>
   </body>
 </html>
