@@ -39,6 +39,11 @@ a:hover, a:focus {
 section {
     padding:100px 0;
 }
+
+sectionText{
+	padding: 20px 50;}
+	
+	
 .fa-opacity {
     opacity: .4;
 }
@@ -136,10 +141,10 @@ a.border-button-black, .border-button-black {
     background: url(../img/cover2.jpg);
 }
 .site-wrapper-2 {
-    background: url(../img/cover3.jpg);
+    background: url(../img/ParisStart.gif);
 }
 .site-wrapper-3 {
-    background: url(../img/cover5.jpg);
+    background: url(../img/cover3.jpg);
 }
 .site-wrapper-5 {
     background: url(../img/cover.jpg);
