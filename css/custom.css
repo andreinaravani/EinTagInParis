@@ -2,3 +2,48 @@
 	padding: 0;
 	margin: 0;
 }
+
+.wohnprob h2 {
+	font-weight: bold;
+	padding: 0;
+	margin: 0;
+}
+
+.smallerheight .container {
+	padding-top: 10px;
+	margin-bottom: 20px;
+}
+
+.parallax {
+	padding-top: 0;
+	padding-bottom: 10px;
+}
+
+.button-strip {
+	background: none;
+	border: 2px solid grey;
+	background-color: none;
+}
+.button-strip:focus,
+.button-strip:hover {
+	background-color: grey;
+	border-color: grey;
+}
+.collapse-strip {
+	background-color: grey;
+}
+.linksbuendig {
+	text-align: left;
+}
+.rechtsbuendig {
+	text-align: right;
+}
+
+section {
+	padding-top: 20px;
+	padding-bottom: 20px;
+}
+.video {
+	width: 100%;
+	height: 300px;
+}
