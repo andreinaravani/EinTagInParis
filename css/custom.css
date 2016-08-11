@@ -2,23 +2,19 @@
 	padding: 0;
 	margin: 0;
 }
-
 .wohnprob h2 {
 	font-weight: bold;
 	padding: 0;
 	margin: 0;
 }
-
 .smallerheight .container {
 	padding-top: 10px;
 	margin-bottom: 20px;
 }
-
 .parallax {
 	padding-top: 0;
 	padding-bottom: 10px;
 }
-
 .button-strip {
 	background: none;
 	border: 2px solid grey;
@@ -38,7 +34,6 @@
 .rechtsbuendig {
 	text-align: right;
 }
-
 section {
 	padding-top: 20px;
 	padding-bottom: 20px;
@@ -46,4 +41,23 @@ section {
 .video {
 	width: 100%;
 	height: 300px;
+}
+.video-gross {
+	width: 100%;
+	height: 500px;
+}
+.thin {
+    font-size: 40%;
+}
+.cover h1 {
+	font-size: 600%;
+}
+#id {
+	font-size: 400%;
+}
+.infront {
+	z-index: 200;
+}
+.quizicon {
+	font-size: 17em;
 }
