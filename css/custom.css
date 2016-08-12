@@ -135,10 +135,6 @@
 .overlay-dark {
     background: rgba(0, 0, 0, 0.6);
 }
-#footer {
-	background-image: none;
-	background-color: darkgrey;
-}
 
 .test {
 	background-color: grey;
