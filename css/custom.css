@@ -73,9 +73,7 @@
 	text-align: center;
 	list-style: none;
 }
-#myCarousel {
-	margin-top: 5em;
-}
+
 #demo1,
 #demo2 {
 	padding: 2em;
@@ -91,7 +89,9 @@
 .quizbutton {
 	border-color: grey;
 	background-color: grey;
-	width: 4em;
+	width: 7em;
+	font-size: 1.3em;
+	font-weight: bold;
 }
 
 .quizlist > li > button,
@@ -136,4 +136,12 @@
 #footer {
 	background-image: none;
 	background-color: darkgrey;
+}
+.buendig-top {
+	padding-top: 0;
+	margin-top: 0;
+}
+.buendig-bottom {
+	padding-bottom: 0;
+	margin-bottom: 0;
 }
