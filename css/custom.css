@@ -131,3 +131,9 @@ section {
 #quiz {
 	padding-bottom: 4em;
 }
+.overlay {
+    background: rgba(0, 0, 0, 0.2);
+}
+.overlay-dark {
+    background: rgba(0, 0, 0, 0.6);
+}
