@@ -93,7 +93,9 @@
 	font-size: 1.3em;
 	font-weight: bold;
 }
-
+.auswahlbutton {
+	font-size: 1.2em;
+}
 .quizlist > li > button,
 .auswahlbutton {
 	margin-right: 2px;
@@ -139,4 +141,8 @@
 }
 .test {
 	background-color: grey;
+}
+.arrow {
+	font-size: 2em;
+	padding-top: 1.5em;
 }
