@@ -59,5 +59,28 @@ section {
 	z-index: 200;
 }
 .quizicon {
-	font-size: 17em;
+	font-size: 14em;
+}
+.firstsection {
+	padding-top: 12em;
+}
+.lastsection {
+	padding-bottom: 12em;
+}
+.carousel-indicators {
+	position: absolute;
+	bottom: 10px;
+	left: 50%;
+	z-index: 15;
+	width: 60%;
+	padding-left: 0;
+	text-align: center;
+	list-style: none;
+}
+#myCarousel {
+	margin-top: 5em;
+}
+#demo1,
+#demo2 {
+	padding: 2em;
 }
