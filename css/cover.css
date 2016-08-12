@@ -907,7 +907,9 @@ margin-top: 20px;
 }
 
 /* Pricing */
-#quiz {
+#quiz,
+#auswahlbereich,
+#auswahlzurueck {
     background: #eee;
     color: #1B1F23;
 }

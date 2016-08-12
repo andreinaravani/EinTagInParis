@@ -142,7 +142,26 @@
 .test {
 	background-color: grey;
 }
-.arrow {
+.arrow,
+.arrowback {
 	font-size: 2em;
+}
+.arrow {
 	padding-top: 1.5em;
+}
+.arrowback {
+	padding-top: 35px;
+}
+#auswahlzurueck {
+	padding: 0;
+	margin: 0;
+	height: 100px;
+}
+#auswahlzurueck h3 {
+	padding: 0;
+	margin: 0;
+	padding-top: 30px;
+}
+#auswahlzurueck a {
+	text-decoration: none;
 }
