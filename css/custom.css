@@ -84,3 +84,50 @@ section {
 #demo2 {
 	padding: 2em;
 }
+.googlemap {
+	width: 100%;
+}
+.quizlist {
+	padding-left: 0;
+	margin-bottom: 0;
+}
+
+.quizbutton {
+	border-color: grey;
+	background-color: grey;
+	width: 4em;
+}
+
+.quizlist > li > button,
+.auswahlbutton {
+	margin-right: 2px;
+	line-height: 1.42857143;
+	border: 1px solid transparent;
+	border-radius: 4px 4px 4px 4px;
+}
+.quizlist > li > button:hover,
+.auswahlbutton:hover {
+	border-color: #eee #eee #ddd;
+	background-color: #eee #eee #ddd;
+}
+.quizlist > li.active > button,
+.quizlist > li.active > button:hover,
+.quizlist > li.active > button:focus,
+.auswahlbutton > li.active > button,
+.auswahlbutton > li.active > button:hover,
+.auswahlbutton > li.active > button:focus, {
+	color: #555;
+	cursor: default;
+	background-color: #fff;
+	border: 1px solid #ddd;
+}
+.mindesthöhequiz {
+	min-height: 102px;
+}
+.auswahlbutton {
+	border-color: grey;
+	background-color: grey;
+}
+#quiz {
+	padding-bottom: 4em;
+}

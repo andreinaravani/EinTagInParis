@@ -292,7 +292,7 @@ Custom Google Map Skin, Address and PNG map marker: js/map.js
           Seit dem Umfall lebt David wieder mit seiner Mutter zusammen. Er ist froh, dass sie ihn im Alltag unterstützt. Zwar ist es möglich im Rollstuhl alleine einen Haushalt zu führen, doch gemeinsam geht alles ein bisschen leichter. Die grosse Herausforderung war jedoch, eine rollstuhlgängige Wohnung zu finden. Diese sind in Paris Mangelware, darum wichen sie nach Villejuif, einem Vorort der französischen Hauptstadt aus. Hier fühlt sich David wohl. Alles ist nahe beieinander. Einkaufen, der Besuch beim Doktor, ein leckers Essen beim Italiener: alles ist in unmittelbarer Nähe seines Apartments. Ausserdem hat er auch gleich das Tram, welches um die Stadtgrenze Paris fährt vor der Haustür und sogar die Metrostation weist über einen Lift aus. Allerdings gibt es auf der ganzen Linie nur eine weitere Station, die für Rollstuhlfahrer zugänglich ist, daher bleibt er der Metro fern.
         </p>
         <div class="col-lg-5">
-          <div id="map" ></div>
+          <img class="googlemap" src="https://maps.googleapis.com/maps/api/staticmap?center=Villejuif,Frankreich&size=800x300" />
         </div>
       </div>
     </div>
@@ -458,53 +458,30 @@ Custom Google Map Skin, Address and PNG map marker: js/map.js
       <div class="col-md-2 col-md-offset-3">
         <span class="glyphicon glyphicon-question-sign quizicon" aria-hidden="true"></span>
       </div>
-      <!-- <div class="col-md-3 col-md-offset-1">
-        <p class="lead">Wie viele Hürden begegnen Ihnen unterwegs?</p>
-        <div class="btn-group nav" data-toggle="buttons-radio">
-          <button class="btn btn-large" href="#div1" data-toggle="tab">6</button>
-          <button class="btn btn-large" href="#div2" data-toggle="tab">15</button>
-          <button class="btn btn-large" href="#div3" data-toggle="tab">35</button>
+      <div class="col-md-4 col-md-offset-1">
+          <div class="tab-content">
+            <div id="home" class="tab-pane fade in active mindesthöhequiz">
+              <h3>Was denkst du, wie viele Hürden begegnen Ihnen unterwegs?</h3>
+            </div>
+            <div id="menu1" class="tab-pane fade mindesthöhequiz">
+              <h3>Richtig!</h3>
+              <p>Du hast den Durchblick.</p>
+            </div>
+            <div id="menu2" class="tab-pane fade mindesthöhequiz">
+              <h3>Falsch</h3>
+              <p>Falsch. Versuche es nochmals.</p>
+            </div>
+            <div id="menu3" class="tab-pane fade mindesthöhequiz">
+              <h3>Falsch</h3>
+              <p>Ganz so schlimm ist es nicht.</p>
+            </div>
+            <ul class="nav-justified quizlist">
+              <li><button type="button" class="btn btn-info quizbutton" data-toggle="tab" href="#menu1">6</button></li>
+              <li><button type="button" class="btn btn-info quizbutton" data-toggle="tab" href="#menu2">15</button></li>
+              <li><button type="button" class="btn btn-info quizbutton" data-toggle="tab" href="#menu3">35</button></li>
+            </ul>
         </div>
-        <div id="div0" class="tab-pane active">
-          <p>Na?</p>
-        </div>
-        <div id="div1" class="tab-pane">
-          <p>6 Richtig! Du hast den Durchblick.</p>
-        </div>
-        <div id="div2" class="tab-pane">
-          <p>15 Falsch. Versuche es nochmals.</p>
-        </div>
-        <div id="div3" class="tab-pane">
-          <p>35 Falsch. Ganz so schlimm ist es also nicht.</p>
-        </div>
-      </div> -->
-      <h2>Dynamic Tabs</h2>
-  <ul class="nav nav-tabs">
-    <li class="active"><a data-toggle="tab" href="#home">Home</a></li>
-    <li><a data-toggle="tab" href="#menu1">Menu 1</a></li>
-    <li><a data-toggle="tab" href="#menu2">Menu 2</a></li>
-    <li><a data-toggle="tab" href="#menu3">Menu 3</a></li>
-  </ul>
-
-  <div class="tab-content">
-    <div id="home" class="tab-pane fade in active">
-      <h3>HOME</h3>
-      <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</p>
-    </div>
-    <div id="menu1" class="tab-pane fade">
-      <h3>Menu 1</h3>
-      <p>Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.</p>
-    </div>
-    <div id="menu2" class="tab-pane fade">
-      <h3>Menu 2</h3>
-      <p>Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium doloremque laudantium, totam rem aperiam.</p>
-    </div>
-    <div id="menu3" class="tab-pane fade">
-      <h3>Menu 3</h3>
-      <p>Eaque ipsa quae ab illo inventore veritatis et quasi architecto beatae vitae dicta sunt explicabo.</p>
-    </div>
-  </div>
-
+      </div>
     </div>
   </div>
 </section>
@@ -590,13 +567,34 @@ Custom Google Map Skin, Address and PNG map marker: js/map.js
 <!--nachmittag david -->
 
 <!-- nachmittag fred und maxim -->
-<section id="quiz">
+<section id="quiz" class="auswahlabstand">
   <div class="container text-center wow fadeIn">
     <i class="icon icon-heading ion-bag size-64 fa-opacity"></i><br>
-    <h2>Nachmittagsprogramm Fred und Max</h2>
-    <p class="lead">Max und Fred wollen sich am Nachmittag auch schönerem widmen als der Arbeit. Sie haben sich extra freigenommen, um Paris aus der neuen Perspektive im Rollstuhl zu erkunden. Was sie genau unternehmen sollen, entscheidest du!</p>
-    <p>X  	Etwas Kultur kann nie schaden! Auf ins grösste Museum von Paris: den Louvre.</p>
-    <p>X 	Hoch den Hügel, lasst die beiden Montmarte erklimmen und die weltbekannte Kirche Sacre Coeur besuchen?</p>
+      <h2>Nachmittagsprogramm Fred und Max</h2>
+      <p class="lead">
+        Max und Fred wollen sich am Nachmittag auch schönerem widmen als der Arbeit. Sie haben sich extra freigenommen, um Paris aus der neuen Perspektive im Rollstuhl zu erkunden. Was sie genau unternehmen sollen, entscheidest du!
+      </p>
+      <ul class="nav nav-justified">
+        <li><button type="button" class="btn btn-info auswahlbutton" data-toggle="tab" href="#louvre">Etwas Kultur kann nie schaden!<br> Auf ins grösste Museum von Paris: den Louvre.</button></li>
+        <li><button type="button" class="btn btn-info auswahlbutton" data-toggle="tab" href="#sacrecoeur">Hoch den Hügel, lasst die beiden Montmarte erklimmen<br> und die weltbekannte Kirche Sacre Coeur besuchen?</button></li>
+      </ul>
+  </div>
+</section>
+<section class="lastsection">
+  <div class="container text-center wow fadeIn">
+    <div class="tab-content">
+      <div id="auswahl" class="tab-pane fade in active">
+        <h3>Wähle oben aus, was du gerne unternehmen möchtest!</h3>
+      </div>
+      <div id="louvre" class="tab-pane fade in">
+        <h3>Louvre</h3>
+        <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</p>
+      </div>
+      <div id="sacrecoeur" class="tab-pane fade">
+        <h3>Sacre Coeur</h3>
+        <p>Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.</p>
+      </div>
+    </div>
   </div>
 </section>
 
